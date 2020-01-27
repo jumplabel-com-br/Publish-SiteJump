@@ -12191,14 +12191,71 @@ body.md-skin {
 }
 
 @media (max-width: 500px){
+    .landing-page .header-back.five {
+        background-size: 100%;
+        margin-top: -16%;
+        margin-left: 15%;
+        height: 132px;
+    }
+
+    .landing-page .header-back.six {
+        background-size: 100%;
+        /* margin-top: 20%; */
+        margin-left: 15%;
+        height: 132px;
+    }
+
+    .landing-page .header-back.seven {
+        background-size: 75%;
+        /* margin-top: 20%; */
+        margin-left: 15%;
+        height: 132px;
+    }
+
+    .landing-page .header-back.eight {
+        background-size: 100%;
+        /* margin-top: 20%; */
+        margin-left: 15%;
+        height: 132px;
+    }
+
     .img-jp-home-2 {
-        margin-top: 13%;
+        margin-top: 18%;
         margin-left: -37%;
         z-index: -1;
     }
 
+    .ft-18 {
+        font-size: 16px;
+    }
+
     .ft-28 {
-        font-size: 11px;
+        font-size: 7px;
+    }
+
+    .btn-info {
+        font-size: 6.5px !important;
+    }
+
+    .div-headers-datas{
+        margin-top: 25%;
+    }
+
+    .elementor-image.spinner {
+        margin-left: -15%;
+    }
+
+    .box-shadow-opacity-0{
+        margin-left: 4% !important;
+    }
+
+    .landing-page .header-back {
+        width: 100%;
+    }
+
+    .img-consultant {
+        margin-top: 21.4% !important;
+        margin-left: -1% !important;
     }
 }
 
@@ -12249,18 +12306,6 @@ body.md-skin {
         height: 220px;
     }
 
-    .landing-page .header-back.nine {
-        background-size: 100%;
-        height: 397px;
-    }
-
-    .landing-page .header-back.ten {
-        background-size: 100%;
-        height: 500px;
-        width: 100%;
-        margin-top: -0.2%;
-    }
-
     .landing-page .header-back.eleven {
         background-size: 100%;
         height: 409px !important;
@@ -12270,12 +12315,6 @@ body.md-skin {
         background-size: 100%;
         margin-top: -0.4%;
         height: 250px;
-    }
-
-
-    .landing-page .header-back.three_teen {
-        background-size: 100%;
-        height: 425px;
     }
 
     .landing-page .header-back.fiveteen {
@@ -12290,18 +12329,6 @@ body.md-skin {
 
     .landing-page .header-back.seventeen {
         background-size: 100%;
-    }
-
-    .landing-page .header-back.eighteen {
-        background-size: 100%
-    }
-
-    .landing-page .header-back.nineteen {
-        background-size: 100%
-    }
-
-    .landing-page .header-back.tweenty {
-        background-size: 100%
     }
 
     .landing-page .header-back.tweenty-one {
