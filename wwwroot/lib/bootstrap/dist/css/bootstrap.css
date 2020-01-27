@@ -2987,6 +2987,13 @@ fieldset:disabled a.btn {
   width: 100%;
 }
 
+@media (max-width: 400px){
+    .btn-block {
+        display: block;
+        width: 200%;
+    }
+}
+
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }
@@ -6333,6 +6340,7 @@ a.close.disabled {
   outline: 0;
   opacity: 0.9;
 }
+
 
 .carousel-control-prev {
   left: 0;

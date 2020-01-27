@@ -12190,6 +12190,18 @@ body.md-skin {
     margin-top: 07%;
 }
 
+@media (max-width: 500px){
+    .img-jp-home-2 {
+        margin-top: 13%;
+        margin-left: -37%;
+        z-index: -1;
+    }
+
+    .ft-28 {
+        font-size: 11px;
+    }
+}
+
 @media (min-width: 900px){
     .landing-page .header-back.one {
 
