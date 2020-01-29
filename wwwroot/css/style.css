@@ -12206,15 +12206,20 @@ body.md-skin {
     }
 
     .ft-30-pixels,
-    ft-26-pixels {
+    .ft-26-pixels {
         font-size: 24px;
     }
 
-    ft-18-pixels {
+    .ft-18-pixels,
+    .ft-28 {
         font-size: 20px;
     }
 
-    ft-16-pixels {
+    .ft-20{
+        font-size: 16px;
+    }
+
+    .ft-16-pixels {
         font-size: 14px;
     }
 
@@ -12266,14 +12271,6 @@ body.md-skin {
         z-index: -1;
     }
 
-    .ft-18 {
-        font-size: 14px;
-    }
-
-    .ft-28 {
-        font-size: 7px;
-    }
-
     .btn-info {
         font-size: 6.5px !important;
     }
@@ -12303,9 +12300,78 @@ body.md-skin {
         margin-top: 21.4% !important;
         margin-left: -1% !important;
     }
+
+    .img-robot-process-automation-solutions {
+        margin-left: -100%;
+        opacity: 38%;
+    }
+
+    .pena-jump {
+        margin-top: 30%;
+    }
+
+    .div-img-cad-purple {
+        margin-left: -2% !important;
+        margin-top: 4% !important;
+    }
+
+    .color-4a1cbb {
+        color: #4a1cbb;
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    .ft-16 {
+        font-size: 12px;
+    }
+
+    .ml-min-percent-4 {
+        margin-left: -4%;
+    }
+
+    .div-text-card-purple-1{
+        margin-left: 20%;
+        margin-top: -200%;
+    }
+
+    .div-text-card-purple-2 {
+        margin-top: -129%;
+        margin-left: 14%;
+    }
+
+    .div-text-card-purple-3 {
+        margin-top: -64%;
+        margin-left: 16%;
+    }
+
+    .div-text-card-purple-4 {
+        margin-left: 20%;
+        margin-top: -135%;
+    }
+
+    .div-text-card-purple-5 {
+        margin-left: 15%;
+        margin-top: -62%;
+    }
+
+    .width-400-pixels {
+        width: 300px !important;
+    }
+
+    .img-1-treinamentos {
+        margin-top: 26%;
+    }
 }
 
 @media (min-width: 900px) {
+    .img-1-treinamentos {
+        margin-top: 8%;
+    }
+
+    .text-robot-process-automation-solutions {
+        margin-left: 10%;
+        margin-top: 04%;
+    }
 
     .div-btn-consultoria {
         margin-left: -03%;
@@ -12434,6 +12500,22 @@ body.md-skin {
 
     .ft-30-pixels {
         font-size: 30px;
+    }
+
+    .div-text-card-purple-1,
+    .div-text-card-purple-4 {
+        margin-left: 05%;
+        margin-top: -28%;
+    }
+
+    .div-text-card-purple-2,
+    .div-text-card-purple-5 {
+        margin-left: 01%;
+        margin-top: -28%;
+    }
+
+    .div-text-card-purple-3 {
+        margin-top: -28%;
     }
 }
 /*
