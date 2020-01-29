@@ -12203,8 +12203,8 @@ body.md-skin {
         font-size: 18px;
     }
 
-    .navbar-nav mobile{
-        display: block;
+    .navbar-mobile {
+        display: block !important;
     }
 
     .landing-page .navbar-nav > li > a {
@@ -12230,6 +12230,10 @@ body.md-skin {
     .ft-28,
     .ft-24 {
         font-size: 20px;
+    }
+
+    .ft-17 {
+        font-size: 8px;
     }
 
     .ft-20{
