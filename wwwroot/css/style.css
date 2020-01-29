@@ -12105,6 +12105,10 @@ body.md-skin {
     font-size: 28px;
 }
 
+.ft-24{
+    font-size: 24px;
+}
+
 .mt-10 {
     margin-top: 05%;
 }
@@ -12191,6 +12195,10 @@ body.md-skin {
 }
 
 @media (max-width: 500px) {
+    h2 {
+        font-size: 18px;
+    }
+
     .landing-page .navbar-nav > li > a {
         padding: 20px 90px;
     }
@@ -12207,16 +12215,17 @@ body.md-skin {
 
     .ft-30-pixels,
     .ft-26-pixels {
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .ft-18-pixels,
-    .ft-28 {
+    .ft-28,
+    .ft-24 {
         font-size: 20px;
     }
 
     .ft-20{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .ft-16-pixels {
@@ -12326,7 +12335,7 @@ body.md-skin {
     }
 
     .ft-18 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .ml-min-percent-4 {
