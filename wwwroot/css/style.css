@@ -12192,7 +12192,7 @@ body.md-skin {
 
 @media (max-width: 500px) {
     .landing-page .navbar-nav > li > a {
-        padding: 20px 98px;
+        padding: 20px 90px;
     }
 
     .dropdown-item {
@@ -12323,6 +12323,10 @@ body.md-skin {
 
     .ft-16 {
         font-size: 12px;
+    }
+
+    .ft-18 {
+        font-size: 16px;
     }
 
     .ml-min-percent-4 {
