@@ -12097,6 +12097,10 @@ body.md-skin {
     font-size: 18px;
 }
 
+.ft-17 {
+    font-size: 17px;
+}
+
 .ft-20 {
     font-size: 20px;
 }
@@ -12518,17 +12522,17 @@ body.md-skin {
     .div-text-card-purple-1,
     .div-text-card-purple-4 {
         margin-left: 05%;
-        margin-top: -28%;
+        margin-top: -22%;
     }
 
     .div-text-card-purple-2,
     .div-text-card-purple-5 {
         margin-left: 01%;
-        margin-top: -28%;
+        margin-top: -22%;
     }
 
     .div-text-card-purple-3 {
-        margin-top: -28%;
+        margin-top: -22%;
     }
 }
 /*
