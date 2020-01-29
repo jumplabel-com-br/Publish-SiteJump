@@ -12203,6 +12203,10 @@ body.md-skin {
         font-size: 18px;
     }
 
+    .navbar-nav mobile{
+        display: block;
+    }
+
     .landing-page .navbar-nav > li > a {
         padding: 20px 90px;
     }
