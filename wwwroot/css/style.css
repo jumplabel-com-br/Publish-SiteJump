@@ -12210,11 +12210,20 @@ body.md-skin {
 
 @media (max-width: 500px) {
 
-    .box-purple-radius {
-        height: 120px;
-        width: 345px !important;
-        margin-left: 6%;
+    .div-sub-title-onetrust {
+        margin-top: 14.8% !important;
+        margin-left: 25%;
     }
+
+        .div-sub-title-onetrust > h2 {
+            font-size: 13px;
+        }
+
+        .box-purple-radius {
+            height: 120px;
+            width: 345px !important;
+            margin-left: 6%;
+        }
 
         .box-purple-radius > span > label {
             margin-top: 12.8% !important;
