@@ -12198,10 +12198,32 @@ body.md-skin {
     margin-top: 07%;
 }
 
+.box-purple-radius {
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background: #4A1CBB;
+    color: #fff;
+    width: 811px !important;
+    margin-left: 25%;
+    height: 89px;
+}
+
 @media (max-width: 500px) {
-    h2 {
-        font-size: 18px;
+
+    .box-purple-radius {
+        height: 120px;
+        width: 345px !important;
+        margin-left: 6%;
     }
+
+        .box-purple-radius > span > label {
+            margin-top: 12.8% !important;
+            font-size: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
 
     .navbar-mobile {
         display: block !important;
@@ -12385,6 +12407,24 @@ body.md-skin {
 
     .img-1-treinamentos {
         margin-top: 26%;
+    }
+
+    .btn-one-trust-comece-agora {
+        margin-left: -15%;
+        width: 168px;
+        height: 55px;
+    }
+
+    .text-solicitacao-one-trust {
+        font-size: 9px;
+    }
+
+    .li-descricao-onetrust-lgpd{
+        font-size: 07px !important;
+    }
+
+    .h2-onetrust-lgpd {
+        margin-left: 20%;
     }
 }
 
