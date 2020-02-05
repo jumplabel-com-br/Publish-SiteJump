@@ -12815,3 +12815,7 @@ vitem-inbox-25px {
         margin-top: -28%;
     }
 }
+
+.row {
+    max-width: 100% !important;
+}
