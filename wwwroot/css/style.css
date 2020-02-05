@@ -12356,13 +12356,28 @@ vitem-inbox-25px {
 }
 
 @media (max-width: 500px) {
+    d-none{
+        display: none;
+    }
 
     .header-back-home-solutions{
         height: 1165px !important;
     }
-    
+
+    .s-11px-mobile{
+        font-size: 11px !important;
+    }
+
+    .item-inbox-15px-mobile {
+        margin-top: 15px;
+    }
+
     .item-inbox-30px-mobile {
         margin-top: 30px;
+    }
+
+    .item-inbox-75px-mobile {
+        margin-top: 75px !important;
     }
 
     .item-inbox-negative-45px-mobile {

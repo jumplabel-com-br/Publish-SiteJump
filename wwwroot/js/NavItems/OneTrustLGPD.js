@@ -7,5 +7,7 @@ function widthMenor500px() {
 
         $('.replace-col-1-to-col-3').addClass('col-3');
         $('.replace-col-4-to-col-2').addClass('col-2');
+
+        $('.remove-ml-3').removeClass('ml-3')
     }
 }
