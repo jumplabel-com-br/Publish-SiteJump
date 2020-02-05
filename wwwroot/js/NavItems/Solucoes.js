@@ -4,5 +4,6 @@
         if ($(window).width() <= 500) {
             $('.mobile-col-10').removeClass('col-5').addClass('col-10')
             $('.mobile-col-10 div').removeClass('item-inbox-100px')
+            $('.item-inbox-50px').removeClass('item-inbox-50px')
         }
     }
