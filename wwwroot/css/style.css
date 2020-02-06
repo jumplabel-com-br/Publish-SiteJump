@@ -12298,8 +12298,8 @@ vitem-inbox-25px {
     margin-top: 40px;
 }
 
-.item-inbox-50px {
-    margin-top: 50px;
+.item-inbox-70px {
+    margin-top: 70px;
 }
 
 .item-inbox-60px {
@@ -12458,17 +12458,23 @@ vitem-inbox-25px {
         height: 800px;
     }
 
-    #section-data-science-machine-learning > .Inbox > .row > div > img,
+    #section-data-science-machine-learning > .Inbox > .row > div > img
     {
         width: 265px !important;
         height: 135px !important;
     }
 
-        #section-data-enginneering-big-data > .Inbox > .row > div > img,
+        #section-data-enginneering-big-data > .Inbox > .row > div > img {
+            width: 265px !important;
+            height: 290px !important;
+            margin-top: -115px;
+            opacity: 31%;
+        }
+
         #section-data-visualization > .Inbox > .row > div > img,
         #section-robot-process > .Inbox > .row > div > img {
             width: 265px !important;
-            height: 200px !important;
+            height: 220px !important;
         }
 
     .div-text-card-purple-1 {
