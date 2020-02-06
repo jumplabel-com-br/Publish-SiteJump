@@ -9618,7 +9618,7 @@ body.landing-page {
             font-weight: 600;
             /*letter-spacing: 1px;*/
             /*text-transform: uppercase;*/
-            font-size: 14px;
+            font-size: 12px;
             /*margin-left: -15%;*/
         }
 
@@ -12392,6 +12392,10 @@ vitem-inbox-25px {
         margin-top: 75px !important;
     }
 
+    .item-inbox-160px-mobile {
+        margin-top: 160px !important;
+    }
+
     .item-inbox-negative-45px-mobile {
         margin-top: -45px;
     }
@@ -12420,8 +12424,8 @@ vitem-inbox-25px {
     }
 
     .item-inbox-40px-mobile > img {
-        height: 368px !important;
-        width: 360px !important;
+        height: 360px !important;
+        width: 350px !important;
         margin-left: 12px;
     }
 
@@ -12715,6 +12719,10 @@ vitem-inbox-25px {
 
     .item-inbox-75px-mobile {
         margin-top: 75px !important;
+    }
+
+    .item-inbox-100px-mobile {
+        margin-top: 100px !important;
     }
 
     .item-inbox-negative-45px-mobile {
