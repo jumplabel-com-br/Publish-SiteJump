@@ -12358,7 +12358,7 @@ vitem-inbox-25px {
     margin-top: 10px;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 359px) and (max-width: 400px) {
     .landing-page section p {
         /*color: #aeaeae;*/
         font-size: 13px;
