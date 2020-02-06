@@ -22,8 +22,6 @@
         $('#robot-process-automation-solutions').show();
     });
 
-    setInterval(function () { widthMenor500px() }, 1000);
-
     function widthMenor500px() {
         if ($(window).width() <= 500) {
             $('img').attr({ 'width': '80', 'height': '80' })
@@ -31,7 +29,10 @@
             $('.ft-18').css({ 'font-size': '8px' })
             $('.hover-ef8822').css({ 'font-size': '13px' })
 
-            $('.text-tipo-tecnologias').removeClass('col-3').addClass('col-12 text-center')
-            $('.img-tipo-tecnologias').removeClass('col-3').addClass('col-6 text-center')
+            $('.text-tipo-tecnologias').removeClass('col-3').addClass('col-12 text-center');
+            $('.img-tipo-tecnologias').removeClass('col-3').addClass('col-6 text-center');
+            $('.mobile-col-9').removeClass('col-8').addClass('col-9');
         }
-    }
+}
+
+setInterval(function () { widthMenor500px() }, 1000);

@@ -12509,7 +12509,7 @@ vitem-inbox-25px {
     }
 
     .div-solucoes-onetrust-lgpd {
-        margin-top: 40%;
+        margin-top: 40% !important;
     }
 
     .s-11px-mobile {
@@ -12525,6 +12525,15 @@ vitem-inbox-25px {
         margin-left: 0 !important;
         height: auto;
     }
+
+    .div-consultoria-img {
+        margin-top: 165px !important;
+    }
+
+    .div-consultoria-text {
+        margin-top: 5% !important;
+    }
+
 }
 
 @media (min-width: 359px) and (max-width: 400px) {
