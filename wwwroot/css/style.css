@@ -12628,8 +12628,8 @@ vitem-inbox-25px {
     }
 
     .div-sub-title-onetrust {
-        margin-top: 14.8% !important;
-        margin-left: 25%;
+        margin-top: 0 !important;
+        margin-left: 0;
     }
 
         .div-sub-title-onetrust > h2 {
@@ -12828,12 +12828,6 @@ vitem-inbox-25px {
 
     .img-1-treinamentos {
         margin-top: 26%;
-    }
-
-    .btn-one-trust-comece-agora {
-        margin-left: -15%;
-        width: 168px;
-        height: 55px;
     }
 
     .text-solicitacao-one-trust {
