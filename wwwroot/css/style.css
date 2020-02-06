@@ -12384,6 +12384,10 @@ vitem-inbox-25px {
         margin-top: 30px;
     }
 
+    .item-inbox-40px-mobile {
+        margin-top: 40px;
+    }
+
     .item-inbox-75px-mobile {
         margin-top: 75px !important;
     }
@@ -12413,6 +12417,12 @@ vitem-inbox-25px {
     .item-inbox-30px-mobile > img {
         height: 242px !important;
         width: 325px !important;
+    }
+
+    .item-inbox-40px-mobile > img {
+        height: 368px !important;
+        width: 360px !important;
+        margin-left: 12px;
     }
 
     .element-img-data-engeneering-big-data > img {
@@ -12728,10 +12738,14 @@ vitem-inbox-25px {
     }
 
     .item-inbox-negative-45px-mobile > img,
-    .item-inbox-negative-55px-mobile > img,
-    .item-inbox-30px-mobile > img {
+    .item-inbox-negative-55px-mobile > img{
         height: 242px !important;
         width: 325px !important;
+    }
+
+    .item-inbox-40px-mobile > img {
+        height: 368px !important;
+        width: 360px !important;
     }
 
     .element-img-data-engeneering-big-data > img {

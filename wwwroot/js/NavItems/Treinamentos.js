@@ -8,6 +8,6 @@ function widthMenor500px() {
         $('.item-inbox-75px').removeClass('item-inbox-75px').addClass('item-inbox-25px')
         $('.item-inbox-25px img').attr({ 'height': '200' });
         $('.mobile-height-max').attr({ 'style': 'height : 1020px !important' });
-        $('.item-inbox-100px').addClass('item-inbox-150px').removeClass('item-inbox-100px')
+        $('.item-inbox-100px').removeClass('item-inbox-100px')
     }
 }
