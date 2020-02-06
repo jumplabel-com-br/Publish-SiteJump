@@ -12358,6 +12358,169 @@ vitem-inbox-25px {
     margin-top: 10px;
 }
 
+@media (max-width: 358px) {
+    .landing-page .header-back.nine {
+        background-image: url(../images/landing/header_nine.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .landing-page .header-back.three_teen {
+        background-image: url(../images/landing/header_threeteen.jpg) !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .landing-page .header-back.twelve {
+        height: 250px !important;
+    }
+
+    .landing-page .header-back.tweenty-five {
+        height: 720px !important;
+    }
+
+    .landing-page .header-back.nineteen {
+        background-image: url(../images/landing/header_nineteen.jpg) !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 970px !important;
+    }
+
+    .landing-page .header-back.tweenty-one {
+        background: #70bf4a;
+        color: #fff;
+        height: 129px !important;
+    }
+
+    .landing-page .header-back.tweenty-two {
+        height: 835px !important;
+    }
+
+    .item-inbox-negative-45px-mobile.item-inbox-6px > img {
+        height: 253px !important;
+        width: 300px !important;
+    }
+
+    .landing-page .header-back.twelve > .row > .col-12 {
+        margin-top: 25% !important;
+    }
+
+    .header-back-home-solutions{
+        height: 1100px !important;
+    }
+
+    .header-back-home-solutions .item-inbox-50px{
+        margin-top: 0 !important;
+    }
+
+    .div-solucoes-inteligentes{
+        margin-top: 10px !important;
+    }
+    
+    .img-solucoes-inteligentes-server {
+        margin-left: -10px !important;
+    }
+
+    .item-inbox-negative-45px-mobile.item-inbox-6px > .item-inbox-75px {
+        margin-top: -16px;
+    }
+
+    .item-inbox-160px-mobile {
+        margin-top: 160px;
+    }
+
+    .landing-page .header-back {
+        height: 620px;
+        width: 100%;
+    }
+
+    .item-inbox-40px-mobile > img {
+        height: 340px;
+        width: 300px;
+        margin-left: 8%;
+    }
+
+    .elementor-image.pena-jump {
+        margin-top: 50%;
+    }
+
+    .box-shadow-opacity-0 {
+        margin-left: 0 !important;
+    }
+
+    #section-data-science-machine-learning,
+    #section-data-enginneering-big-data,
+    #section-data-visualization,
+    #section-robot-process {
+        height: 800px;
+    }
+
+    #section-data-science-machine-learning > .Inbox > .row > div > img,
+    {
+        width: 265px !important;
+        height: 135px !important;
+    }
+
+        #section-data-enginneering-big-data > .Inbox > .row > div > img,
+        #section-data-visualization > .Inbox > .row > div > img,
+        #section-robot-process > .Inbox > .row > div > img {
+            width: 265px !important;
+            height: 200px !important;
+        }
+
+    .div-text-card-purple-1 {
+        margin-left: 0 !important;
+        margin-top: -310%;
+    }
+
+    .div-text-card-purple-2 {
+        margin-top: -205%;
+        margin-left: 0 !important;
+    }
+
+    .div-text-card-purple-3 {
+        margin-top: -100%;
+        margin-left: 0 !important;
+    }
+
+    .div-text-card-purple-4 {
+        margin-left: 0 !important;
+        margin-top: -200%;
+    }
+
+    .div-text-card-purple-5 {
+        margin-left: 0 !important;
+        margin-top: -100%;
+    }
+
+    .div-img-cad-purple > img {
+        width: 325px !important;
+        height: 360px;
+        margin-left: 0 !important;
+    }
+
+    .div-solucoes-onetrust-lgpd {
+        margin-top: 40%;
+    }
+
+    .s-11px-mobile {
+        font-size: 14px;
+    }
+
+    .box-purple-radius {
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+        background: #4A1CBB;
+        color: #fff;
+        width: 100% !important;
+        margin-left: 0 !important;
+        height: auto;
+    }
+}
+
 @media (min-width: 359px) and (max-width: 400px) {
     .landing-page section p {
         /*color: #aeaeae;*/

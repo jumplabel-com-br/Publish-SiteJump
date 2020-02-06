@@ -16,5 +16,8 @@ function widthMenor500px() {
         $('.remove-ml-3').removeClass('ml-3')
         $('.col-12-mobile').addClass('col-12')
         $('.text-center-mobile').addClass('text-center')
+
+        $('.div-sub-title-onetrust').removeClass('col-4').addClass('col-12 text-center');
+        $('.ml-5percent-mobile .col-4').addClass('col-12').removeClass('col-4')
     }
 }
