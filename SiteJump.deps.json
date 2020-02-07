@@ -25,6 +25,7 @@
       "SiteJump/1.0.0": {
         "dependencies": {
           "Google.Apis.Analytics.v3": "1.43.0.1720",
+          "GoogleAnalyticsTagHelperComponent": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -112,6 +113,20 @@
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        }
+      },
+      "GoogleAnalyticsTagHelperComponent/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Razor.Runtime": "2.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/CodingBlast.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/CodingBlast.dll": {}
         }
       },
       "HtmlAgilityPack/1.8.4": {
@@ -3641,6 +3656,13 @@
       "sha512": "sha512-Y5uzXQP58JFV1VKENO+/IALD1ID8PSff8jFVL9jYUdiXKCI82/1hR8PAx4sQcAenFrFgCNAPSwYJRFJ46OvtBQ==",
       "path": "google.apis.core/1.43.0",
       "hashPath": "google.apis.core.1.43.0.nupkg.sha512"
+    },
+    "GoogleAnalyticsTagHelperComponent/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8cPOq+GnIXZ8RaaPpAeT1vY2uejH8KeTQUw9D/ir59UFnz7Lz5CGYWJuHbDL+kwT28kfxW1j7xmhAg8qpJv8OQ==",
+      "path": "googleanalyticstaghelpercomponent/1.0.0",
+      "hashPath": "googleanalyticstaghelpercomponent.1.0.0.nupkg.sha512"
     },
     "HtmlAgilityPack/1.8.4": {
       "type": "package",

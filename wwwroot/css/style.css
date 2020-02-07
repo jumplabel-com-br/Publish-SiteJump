@@ -12330,6 +12330,9 @@ vitem-inbox-25px {
     color: #000 !important;
 }
 
+.element-background-black {
+    background: #000;
+}
 .text-enter-lines-black > h2 {
     font-size: 20px;
     color: #000;

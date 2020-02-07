@@ -48,12 +48,30 @@ function questionInputRequired(form) {
         if ($(this).val() == '') {
             $('.toast-alert-input .toast-body').html('Preencha o campo ' + $(this).attr('placeholder'))
             $('.toast-alert-input').toast('show');
+            $(this).focus();
             verification = false;
             return verification;
         }
 
+        if ($(this).attr('placeholder') == 'Email' && validacaoEmail($(this).val()) == false) {
+            $('.toast-alert-input .toast-body').html('O campo ' + $(this).attr('placeholder') + ' é inválido!')
+            $('.toast-alert-input').toast('show');
+            $(this).focus();
+            return false;
+        }
+
         verification = true;
     });
+}
+
+function validacaoEmail(field) {
+    var sEmail = field;
+    var emailFilter = /^.+@.+\..{2,}$/;
+    var illegalChars = /[\(\)\<\>\,\;\:\\\/\"\[\]]/
+    // condição
+    if (!(emailFilter.test(sEmail)) || sEmail.match(illegalChars)) {
+        return false;
+    }
 }
 
 function Message(form) {
@@ -155,3 +173,5 @@ function showError(error) {
 }
 
 getLocation();
+
+$('.mask-telefone').mask('(00) 00000-0000')
