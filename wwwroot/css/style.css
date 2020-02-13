@@ -3454,7 +3454,6 @@ select.form-control:not([size]):not([multiple]) {
     border-color: #EF8822;
 }
 
-.has-warning .form-control,
 .has-warning .form-control:focus {
     border-color: #ff9226;
 }
@@ -10252,6 +10251,15 @@ body.landing-page {
 .landing-page .btn-primary {
     background-color: #EF8822;
     border-color: #EF8822;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.landing-page .btn-danger {
+    background-color: #ed5565;
+    border-color: #ed5565;
     color: #FFFFFF;
     font-size: 14px;
     padding: 10px 20px;

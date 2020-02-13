@@ -85,8 +85,6 @@ function Message(form) {
     } else if (true) {
         strMessage = $(`${form} #Nome`).val() + ' efetuou o cadastro com êxito a partir do email ' + $(`${form} #Remetente`).val();
     }
-
-
     //strMessage = strMessage.replace(/[<br/>]/g, '\n');
 
     $(`${form} #Mensagem`).val(strMessage);
