@@ -43,7 +43,7 @@ function genericWidthMenor500px() {
 var verification = true;
 
 function questionInputRequired(form) {
-    $(`${form} input, ${form} select, ${form} textarea`).each(function () {
+    $(`${form} input[type="text"], ${form} select, ${form} textarea`).each(function () {
 
         if ($(this).val() == '') {
             $('.toast-alert-input .toast-body').html('Preencha o campo ' + $(this).attr('placeholder'))
@@ -59,8 +59,6 @@ function questionInputRequired(form) {
             $(this).focus();
             return false;
         }
-
-        verification = true;
     });
 }
 

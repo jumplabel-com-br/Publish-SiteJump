@@ -1097,11 +1097,11 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h4 {
@@ -1813,7 +1813,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 
 .top-navigation .nav > li > a {
     padding: 15px 20px;
-    color: #676a6c;
+    color: #000;
 }
 
 .top-navigation .nav > li a:hover,
@@ -2043,6 +2043,9 @@ button:focus {
     color: #fff;
     background-color: #1c84c6;
     border-color: #1c84c6;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
 }
 
     .btn-success:hover,
@@ -2161,12 +2164,17 @@ button:focus {
     border-color: #ff9226;
 }
 
-    .btn-warning:hover,
-    .btn-warning:focus,
-    .btn-warning.focus {
+    .btn-warning:hover {
         color: #ff9226;
         background-color: #fff;
         border-color: #fff;
+    }
+
+    .btn-warning:focus,
+    .btn-warning.focus {
+        color: #fff;
+        background-color: #ff9226;
+        border-color: #ff9226;
     }
 
     .btn-warning.disabled,
@@ -2674,7 +2682,7 @@ button.dim:active:before {
 }
 
 .page-link:hover {
-    color: #676a6c;
+    color: #000;
 }
 
 .pagination .footable-page.active a {
@@ -3146,7 +3154,7 @@ table.dataTable thead .sorting_desc_disabled {
     .html5buttons a {
         border: 1px solid #e7eaec;
         background: #fff;
-        color: #676a6c;
+        color: #000;
         box-shadow: none;
         padding: 6px 8px;
         font-size: 12px;
@@ -3629,7 +3637,7 @@ select.form-control:not([size]):not([multiple]) {
 .ui-jqgrid-titlebar {
     height: 40px;
     line-height: 15px;
-    color: #676a6c;
+    color: #000;
     background-color: #F9F9F9;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
@@ -3678,7 +3686,7 @@ select.form-control:not([size]):not([multiple]) {
     border: 1px solid #DDDDDD;
     line-height: 15px;
     font-weight: bold;
-    color: #676a6c;
+    color: #000;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
@@ -4254,7 +4262,7 @@ label.error {
     }
 
 .author-info {
-    color: #676a6c;
+    color: #000;
     font-size: 11px;
     margin-top: 5px;
     text-align: center;
@@ -5316,7 +5324,7 @@ samp {
         .sidebar-container ul.nav-tabs li.active a {
             border: none;
             background: #f9f9f9;
-            color: #676a6c;
+            color: #000;
             font-weight: bold;
         }
 
@@ -5399,7 +5407,7 @@ body {
     font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #2f4050;
     font-size: 13px;
-    color: #676a6c;
+    color: #000;
     overflow-x: hidden;
 }
 
@@ -5521,7 +5529,7 @@ video {
     }
 
     .note-editor.note-frame .note-editing-area .note-editable {
-        color: #676a6c;
+        color: #000;
         padding: 15px;
     }
 
@@ -5569,7 +5577,7 @@ video {
 }
 
 .inmodal .modal-title {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .inmodal .modal-icon {
@@ -5819,7 +5827,7 @@ body.body-small .footer.fixed {
 
     .nav-tabs > li > a:hover,
     .nav-tabs > li > a:focus {
-        color: #676a6c;
+        color: #000;
     }
 
 .ui-tab .tab-content {
@@ -5942,7 +5950,7 @@ img.circle-border {
 .icons-box .infont a i {
     font-size: 25px;
     display: block;
-    color: #676a6c;
+    color: #000;
 }
 
 .icons-box .infont a {
@@ -6131,7 +6139,7 @@ table.table-mail tr td {
     .ibox-tools .dropdown-menu > li > a {
         padding: 4px 10px;
         font-size: 12px;
-        color: #676a6c !important;
+        color: #000 !important;
     }
 
 .ibox .ibox-tools.open > .dropdown-menu {
@@ -7380,7 +7388,7 @@ ul.notes li {
 }
 
 .file-name small {
-    color: #676a6c;
+    color: #000;
 }
 
 .corner {
@@ -7590,7 +7598,7 @@ dd.project-people {
 
 .project-title a {
     font-size: 14px;
-    color: #676a6c;
+    color: #000;
     font-weight: 600;
 }
 
@@ -7615,7 +7623,7 @@ dd.project-people {
 
 .project-files li a {
     font-size: 11px;
-    color: #676a6c;
+    color: #000;
     margin-left: 10px;
     line-height: 22px;
 }
@@ -7888,7 +7896,7 @@ table.issue-tracker tbody tr td {
 
     .issue-info a {
         font-weight: 600;
-        color: #676a6c;
+        color: #000;
     }
 
     .issue-info small {
@@ -8032,7 +8040,7 @@ table.shoping-cart-table {
 .product-name {
     font-size: 16px;
     font-weight: 600;
-    color: #676a6c;
+    color: #000;
     display: block;
     margin: 2px 0 5px 0;
 }
@@ -9505,7 +9513,7 @@ body.body-small .vote-icon {
 }
 
 body.landing-page {
-    color: #676a6c;
+    color: #000;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     background-color: #fff;
 }
@@ -9542,7 +9550,7 @@ body.landing-page {
     }
 
     .landing-page p.text-color {
-        color: #676a6c;
+        color: #000;
     }
 
     .landing-page a.navy-link {
@@ -9565,7 +9573,7 @@ body.landing-page {
 
     .landing-page h1 {
         margin-top: 10px;
-        font-size: 30px;
+        font-size: 36px;
         font-weight: 200;
         line-height: 0.9;
     }
@@ -9609,6 +9617,7 @@ body.landing-page {
         background-color: #000 !important;
         border-color: #fff !important;
         transition: all 0.3s ease-in-out 0s;
+        opacity: 93%;
     }
 
         .landing-page .navbar-default .nav li a {
@@ -9674,7 +9683,7 @@ body.landing-page {
     }
 
     .landing-page .navbar-scroll.navbar-default .nav li a {
-        color: #676a6c;
+        color: #000;
     }
 
         .landing-page .navbar-scroll.navbar-default .nav li a:hover {
@@ -9730,7 +9739,7 @@ body.landing-page {
     }
 
     .landing-page .header-back {
-        height: 420px;
+        height: 520px;
         width: 100%;
     }
 
@@ -9816,9 +9825,10 @@ body.landing-page {
 
 
         .landing-page .header-back.three_teen {
-            background: url('../images/landing/header_threeteen.jpg') 0% 0 no-repeat;
-            /*background-size: 100%;*/
-            /*height: 425px;*/
+            background: url('../images/landing/header_threeteen.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .landing-page .header-back.fiveteen {
@@ -9844,8 +9854,10 @@ body.landing-page {
         }
 
         .landing-page .header-back.nineteen {
-            background: url('../images/landing/header_nineteen.jpg') 0% 0 no-repeat;
-            /*background-size: 100%*/
+            background: url('../images/landing/header_nineteen.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .landing-page .header-back.tweenty {
@@ -10025,7 +10037,7 @@ body.landing-page {
 
 .landing-page .carousel-caption h1 {
     /*font-weight: 700;*/
-    font-size: 38px;
+    font-size: 46px;
     /*text-transform: uppercase;*/
     text-shadow: none;
     letter-spacing: -1.5px;
@@ -10382,7 +10394,7 @@ body.landing-page {
         }
 
         .landing-page .navbar-default .nav li a {
-            color: #676a6c;
+            color: #000;
         }
 
         .landing-page .navbar-default .nav li a {
@@ -11708,7 +11720,7 @@ body.md-skin {
         }
 
 .md-skin .nav > li > a {
-    color: #676a6c;
+    color: #000;
     padding: 14px 20px 14px 25px;
 }
 
@@ -11930,7 +11942,7 @@ body.md-skin {
 }
 
 .md-skin.landing-page.body-small .nav.navbar-right > li > a {
-    color: #676a6c;
+    color: #000;
 }
 
 .md-skin .landing_link a,
@@ -11957,7 +11969,7 @@ body.md-skin {
 
 .md-skin.top-navigation .nav.navbar-right > li > a {
     padding: 15px 20px;
-    color: #676a6c;
+    color: #000;
 }
 
 .md-skin.top-navigation .nav > li a:hover,
@@ -12298,12 +12310,16 @@ body.md-skin {
     margin-top: 6px;
 }
 
-vitem-inbox-25px {
+.item-inbox-25px {
     margin-top: 25px;
 }
 
 .item-inbox-40px {
     margin-top: 40px;
+}
+
+.item-inbox-50px {
+    margin-top: 50px;
 }
 
 .item-inbox-70px {
@@ -12320,6 +12336,11 @@ vitem-inbox-25px {
 
 .item-inbox-100px {
     margin-top: 100px;
+}
+
+
+.item-inbox-105px {
+    margin-top: 105px;
 }
 
 .item-inbox-150px {
@@ -12342,7 +12363,7 @@ vitem-inbox-25px {
     background: #000;
 }
 .text-enter-lines-black > h2 {
-    font-size: 20px;
+    font-size: 24px;
     color: #000;
     font-weight: 400;
 }
@@ -12581,8 +12602,8 @@ vitem-inbox-25px {
         margin-top: 75px !important;
     }
 
-    .item-inbox-160px-mobile {
-        margin-top: 160px !important;
+    .item-inbox-230px-mobile {
+        margin-top: 230px !important;
     }
 
     .item-inbox-negative-45px-mobile {
@@ -12592,6 +12613,11 @@ vitem-inbox-25px {
     .item-inbox-negative-55px-mobile {
         margin-top: -55px;
     }
+
+    .item-inbox-negative-75px-mobile {
+        margin-top: -75px;
+    }
+
 
     .img-data-visualization {
         height: 242px !important;
@@ -12607,6 +12633,7 @@ vitem-inbox-25px {
 
     .item-inbox-negative-45px-mobile > img,
     .item-inbox-negative-55px-mobile > img,
+    .item-inbox-negative-75px-mobile > img,
     .item-inbox-30px-mobile > img {
         height: 242px !important;
         width: 325px !important;
@@ -12616,6 +12643,13 @@ vitem-inbox-25px {
         height: 360px !important;
         width: 350px !important;
         margin-left: 12px;
+    }
+
+
+    .item-inbox-40px-mobile > .hidemeRotate {
+        width: 330px !important;
+        height: 285px !important;
+        margin-left: 25px;
     }
 
     .element-img-data-engeneering-big-data > img {
@@ -13210,6 +13244,10 @@ vitem-inbox-25px {
         margin-top: 8%;
     }
 
+    .div-consultoria-professional > img{
+        margin-top: -7%;
+    }
+
     .text-robot-process-automation-solutions {
         margin-left: 10%;
         margin-top: 04%;
@@ -13355,10 +13393,22 @@ vitem-inbox-25px {
     .div-text-card-purple-3 {
         margin-top: -23%;
     }
+
+    .div-solucoes-inteligentes:nth-child(4) {
+        margin-left: -5.6%;
+    }
 }
 
 .row {
     max-width: 100% !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+}
+
+.hideme{
+    opacity: 0;
+}
+
+.section-box-purples{
+    margin-top: 3%;
 }
