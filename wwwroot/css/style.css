@@ -13737,6 +13737,28 @@ body.md-skin {
     }
 }
 
+@media (min-width: 1449px){
+    .div-text-card-purple-1,
+    .div-text-card-purple-2,
+    .div-text-card-purple-3,
+    .div-text-card-purple-4,
+    .div-text-card-purple-5 {
+        margin-top: -19% !important;
+    }
+
+    .box-purple-radius{
+        width: 1125px !important;
+        height: 115px !important;
+    }
+
+    .box-purple-radius span label {
+        font-size: 18px !important;
+    }
+
+    .item-inbox-113p2px {
+        margin-top: 144.2px;
+    }
+
 .row {
     max-width: 100% !important;
     margin-right: 0 !important;
