@@ -1,7 +1,9 @@
-﻿setInterval(function () { widthMenor500px() }, 1000);
+﻿widthMenor700px()
 
-function widthMenor500px() {
-    if ($(window).width() <= 500) {
+setInterval(function () { widthMenor700px() }, 1000);
+
+function widthMenor700px() {
+    if ($(window).width() < 768) {
         $('.mobile-col-10').removeClass('col-3 col-5 col-6').addClass('col-10');
         $('.mobile-col-12').removeClass('col-3 col-5').addClass('col-12');
         $('.remove-ml-3').removeClass('ml-3').attr({ "style": 'margin-left : 30px; margin-top: 20px' })

@@ -16,10 +16,10 @@ activeNavItem();
 
 var strMessage = '';
 
-setInterval(function () { genericWidthMenor500px() }, 1000);
+setInterval(function () { genericWidthMenor700px() }, 1000);
 
-function genericWidthMenor500px() {
-    if ($(window).width() <= 500) {
+function genericWidthMenor700px() {
+    if ($(window).width() < 768) {
         $('.eleven div').removeClass('col-6').addClass('col-12')
         $('.div-btn').removeClass('col-3');
         $('.div-btn').addClass('ml-3');
@@ -80,12 +80,20 @@ function Message(form) {
             $(`${form} #Telefone`).val() + ';' +
             $(`${form} #rascunho`).val();
 
-    } else if (true) {
+    } else if (form == '#modalTraining') {
+        strMessage = $(`${form} #Nome`).val() + ';' +
+            $(`${form} #Remetente`).val() + ';' +
+            $(`${form} #Telefone`).val() + ';' +
+            $(`${form} input[name=tipoCurso]`).val();
+    }
+    else if (true) {
         strMessage = $(`${form} #Nome`).val() + ' efetuou o cadastro com êxito a partir do email ' + $(`${form} #Remetente`).val();
     }
     //strMessage = strMessage.replace(/[<br/>]/g, '\n');
 
     $(`${form} #Mensagem`).val(strMessage);
+
+    console.log($(`${form} #Mensagem`).val())
 }
 
 function SendEmail(form, envioToUser = false) {
@@ -115,6 +123,9 @@ function SendEmail(form, envioToUser = false) {
             }
 
             $('.toast-send-email-success').toast('show');
+
+            console.log('teste0')
+
         })
         .fail(function () {
             console.log("error");

@@ -1,7 +1,9 @@
-﻿setInterval(function () { widthMenor500px() }, 1000);
+﻿widthMenor700px()
 
-function widthMenor500px() {
-    if ($(window).width() <= 500) {
+setInterval(function () { widthMenor700px() }, 1000);
+
+function widthMenor700px() {
+    if ($(window).width() < 768) {
         $('.replace-col-1-to-col-3').removeClass('col-1');
         $('.replace-col-4-to-col-2').removeClass('col-4');
         $('.replace-col-4-to-col-12').removeClass('col-4');
