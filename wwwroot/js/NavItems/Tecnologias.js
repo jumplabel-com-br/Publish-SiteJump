@@ -24,8 +24,8 @@ $('#h2-robot-process-automation-solutions').on('click', function () {
 });
 
 function addEffectFadeUp() {
-    $('img').removeAttr('data-aos');
-    $('img').attr({ 'data-aos': 'fade-up' });
+    $('img').removeClass('aos-init aos-animate');
+    $('img').addClass('aos-init aos-animate');
 }
 
 function widthMenor700px() {
