@@ -1903,6 +1903,21 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 @media (max-width: 768px) {
+
+    .ml-32-mt-20-pixels-mobile {
+        margin-left: 32px !important;
+        margin-top: 20px;
+    }
+
+    .ml-44-mt-20-pixels-mobile {
+        margin-left: 44px !important;
+        margin-top: 20px;
+    }
+
+    .ml-12-percent-mobile{
+        margin-left: 12%;
+    }
+
     .pl-35-mobile{
         padding-left: 35px !important;
     }
@@ -13019,7 +13034,7 @@ body.md-skin {
 
     .pena-jump {
         margin-top: 50%;
-        margin-left: 40%;
+        margin-left: 45%;
     }
 
     .div-img-cad-purple {
@@ -13421,6 +13436,10 @@ body.md-skin {
 }
 
 @media (min-width: 900px) {
+
+    .ml-100-pixels{
+        margin-left: 100px;
+    }
 
     .div-img-cad-purple:nth-child(2),
     .div-img-cad-purple:nth-child(3),
