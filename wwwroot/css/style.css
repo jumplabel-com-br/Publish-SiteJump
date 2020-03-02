@@ -1903,6 +1903,9 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 @media (max-width: 768px) {
+    .img-0-onetrust{
+        margin-left: 8.5%;
+    }
 
     .ml-32-mt-20-pixels-mobile {
         margin-left: 32px !important;
