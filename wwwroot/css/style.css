@@ -1903,7 +1903,15 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 @media (max-width: 768px) {
-    .d-none-mobile{
+    .pl-35-mobile{
+        padding-left: 35px !important;
+    }
+
+    .pl-17-mobile {
+        padding-left: 17px !important;
+    }
+
+    .d-none-mobile {
         display: none;
     }
 
@@ -1913,10 +1921,6 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 
     .ul-onetrust li {
         font-size: 12px !important;
-    }
-
-    .color-70bf4a:nth-child(1){
-        margin-left: 5% !important;
     }
 
     .img-grupo-23,
@@ -13015,6 +13019,7 @@ body.md-skin {
 
     .pena-jump {
         margin-top: 50%;
+        margin-left: 40%;
     }
 
     .div-img-cad-purple {
