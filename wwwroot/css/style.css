@@ -13440,6 +13440,10 @@ body.md-skin {
 
 @media (min-width: 900px) {
 
+    .ml-45-pixels {
+        margin-left: 45px;
+    }
+
     .ml-100-pixels{
         margin-left: 100px;
     }
