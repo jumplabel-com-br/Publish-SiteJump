@@ -17,6 +17,6 @@ function widthMenor700px() {
         $('.nine div, .ten div').removeClass('col-3 item-inbox-100px')
         $('.div-elementor-button').removeClass('col-7 text-center').addClass('col-12 text-right mt-3')
 
-        $('.img-jump-label-home').attr({'width' : '320', 'height' : '340'})
+        $('.img-jump-label-home').attr({'width' : '320', 'height' : '300'})
     }
 }
