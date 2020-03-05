@@ -1904,6 +1904,12 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 
 @media (max-width: 768px) {
 
+
+    .div-sub-title-onetrust {
+        margin-top: 0 !important;
+        margin-left: 10px;
+    }
+
     .jump-label-solucoes-01Ativo-10 {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -12931,11 +12937,6 @@ body.md-skin {
         font-size: 11.5px !important;
         width: 165px;
         height: 52px;
-    }
-
-    .div-sub-title-onetrust {
-        margin-top: 0 !important;
-        margin-left: 0;
     }
 
         .div-sub-title-onetrust > h2 {
