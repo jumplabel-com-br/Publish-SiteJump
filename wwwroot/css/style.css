@@ -1904,6 +1904,11 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 
 @media (max-width: 768px) {
 
+    .jump-label-solucoes-01Ativo-10 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
     .s-14px-mobile, .text-solicitacao-one-trust {
         font-size: 14px;
     }
