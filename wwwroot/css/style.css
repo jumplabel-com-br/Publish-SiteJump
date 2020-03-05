@@ -1934,10 +1934,18 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
     }
 
     .ul-onetrust {
-        margin-left: 12% !important;
+        margin-left: 12%;
     }
 
-    .ul-onetrust li {
+    ul li {
+        font-size: 16px !important;
+    }
+
+    .div-text-card-purple-1 ul li,
+    .div-text-card-purple-2 ul li,
+    .div-text-card-purple-3 ul li,
+    .div-text-card-purple-4 ul li,
+    .div-text-card-purple-5 ul li {
         font-size: 12px !important;
     }
 
@@ -10696,6 +10704,10 @@ section > h3 {
 
 @media (max-width: 768px) {
 
+    .line-black-left, .line-black-right {
+        margin-top: 25px !important;
+    }
+
     .col-10{
         padding-right: 0px;
     }
@@ -12343,8 +12355,8 @@ body.md-skin {
         -moz-transition: background-color 500ms linear;
         -o-transition: background-color 500ms linear;
         -ms-transition: background-color 500ms linear;
-        transition: background-color 500ms linear;
-        background-color: #f3f3f4;
+        /*transition: background-color 500ms linear;
+        background-color: #f3f3f4;*/
     }
 }
 
@@ -12930,10 +12942,11 @@ body.md-skin {
             margin-top: 15% !important;
             font-size: 14px;
             height: 150px;
+            margin-bottom: 8%;
         }
 
     .img-jump-label-alvo {
-        margin-top: 50% !important;
+        margin-top: 60% !important;
     }
 
     h2 {
@@ -13103,10 +13116,6 @@ body.md-skin {
 
     .text-solicitacao-one-trust {
         font-size: 12px;
-    }
-
-    .li-descricao-onetrust-lgpd {
-        font-size: 07px !important;
     }
 
     .h2-onetrust-lgpd {
