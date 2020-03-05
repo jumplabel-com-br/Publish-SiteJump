@@ -10695,6 +10695,11 @@ section > h3 {
 }
 
 @media (max-width: 768px) {
+
+    .col-10{
+        padding-right: 0px;
+    }
+
     .landing-page .navbar .navbar-header {
         display: block;
         float: none;
