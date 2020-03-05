@@ -1987,7 +1987,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
     }
 
     .s-11px-mobile{
-        margin-left: -3% !important;
+        margin-left: 5% !important;
     }
 
     .text-col-12-mobile {
@@ -10571,7 +10571,7 @@ section > h3 {
     }
 
     .text-enter-lines-black > h2 {
-        margin-left: 0 !important;
+        margin-left: 12px !important;
     }
 
     .spacing-top-sm-mobile {
@@ -10592,6 +10592,14 @@ section > h3 {
 
     .spacing-top-plus-5-mobile {
         margin-top: 10%;
+    }
+
+    .spacing-top-plus-7-mobile {
+        margin-top: 12%;
+    }
+
+    .spacing-left-md-mobile{
+        margin-left: 22%;
     }
 
     .line-black-left, .line-black-right {
@@ -13037,10 +13045,6 @@ body.md-skin {
         margin-left: 4% !important;
         height: 263px !important;
     }
-
-        .box-shadow-opacity-0 h2 {
-            margin-top: -4% !important;
-        }
 
     .landing-page .header-back {
         height: auto;

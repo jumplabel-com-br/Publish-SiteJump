@@ -15,7 +15,7 @@ function widthMenor700px() {
         $('.div-consultoria-professional img').attr({ 'width': '320', 'height': '318' })
         $('.ten .item-inbox-30px-mobile').removeClass('col-3').addClass('col-12 text-center')
         $('.nine div, .ten div').removeClass('col-3 item-inbox-100px')
-        $('.div-elementor-button').removeClass('col-7 text-center').addClass('col-12 spacing-top-plus-5-mobile ml-2 text-center')
+        $('.div-elementor-button').removeClass('col-7 text-center').addClass('col-12 spacing-top-plus-5-mobile ml-3 text-center')
         $('.div-elementor-onetrust').removeClass('col-3').addClass('col-10 text-center')
 
         $('.img-jump-label-home').attr({ 'width': '320', 'height': '280' })
