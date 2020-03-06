@@ -13430,6 +13430,14 @@ body.md-skin {
     }
 }
 
+
+@media (min-width: 420px) and (max-width: 500px){
+    .div-text-card-purple-1 {
+        margin-left: 20%;
+        margin-top: -197%;
+    }
+}
+
 @media (min-width: 900px) {
 
     .ml-45-pixels {
