@@ -13137,6 +13137,15 @@ body.md-skin {
 
 
 @media (min-width:401px) and (max-width: 500px) {
+
+    .spacing-left-md-mobile {
+        margin-left: 43%;
+    }
+
+    .ml-44-mt-20-pixels-mobile {
+        margin-left: 50px !important;
+    }
+
     d-none {
         display: none;
     }
@@ -13183,6 +13192,11 @@ body.md-skin {
         width: 325px !important;
     }
 
+    .div-img-hidemerotate {
+        margin-left: 8.5%;
+        margin-top: 8%;
+    }
+
     .item-inbox-40px-mobile > img {
         height: 368px !important;
         width: 360px !important;
@@ -13215,15 +13229,6 @@ body.md-skin {
         height: 52px;
     }
 
-    .landing-page .header-back.tweenty-five {
-        height: 790px;
-    }
-
-    .div-sub-title-onetrust {
-        margin-top: 14.8% !important;
-        margin-left: 25%;
-    }
-
         .div-sub-title-onetrust > h2 {
             font-size: 13px;
         }
@@ -13243,10 +13248,6 @@ body.md-skin {
             font-size: 14px;
             height: 150px;
         }
-
-    .div-solucoes-onetrust-lgpd {
-        margin-top: 30% !important;
-    }
 
     .img-jump-label-alvo {
         margin-top: 50% !important;
@@ -13327,10 +13328,6 @@ body.md-skin {
         background-size: cover;
     }
 
-    .landing-page .header-back.tweenty-one {
-        height: 129px !important
-    }
-
     .ul-ml-50px-mobile {
         margin-left: 50px;
     }
@@ -13382,10 +13379,6 @@ body.md-skin {
         font-weight: 900;
     }
 
-    .ft-16 {
-        font-size: 12px;
-    }
-
     .ft-18 {
         font-size: 14px;
     }
@@ -13396,12 +13389,12 @@ body.md-skin {
 
     .div-text-card-purple-1 {
         margin-left: 20%;
-        margin-top: -190%;
+        margin-top: -203%;
     }
 
     .div-text-card-purple-2 {
-        margin-top: -125%;
-        margin-left: 14%;
+        margin-top: -134%;
+        margin-left: 17%;
     }
 
     .div-text-card-purple-3 {
@@ -13411,12 +13404,20 @@ body.md-skin {
 
     .div-text-card-purple-4 {
         margin-left: 20%;
-        margin-top: -125%;
+        margin-top: -136%;
     }
 
     .div-text-card-purple-5 {
         margin-left: 15%;
         margin-top: -65%;
+    }
+
+    .hr-tecnologias-0 {
+        margin-left: 7% !important;
+    }
+
+    .hr-white-onetrust-0 {
+        margin-left: 35.7% !important;
     }
 
     .width-400-pixels {
@@ -13425,16 +13426,6 @@ body.md-skin {
 
     .img-1-treinamentos {
         margin-top: 26%;
-    }
-
-    .btn-one-trust-comece-agora {
-        margin-left: -15%;
-        width: 168px;
-        height: 55px;
-    }
-
-    .li-descricao-onetrust-lgpd {
-        font-size: 07px !important;
     }
 
     .h2-onetrust-lgpd {
