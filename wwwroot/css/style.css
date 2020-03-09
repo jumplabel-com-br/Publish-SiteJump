@@ -12903,7 +12903,7 @@ body.md-skin {
     .item-inbox-40px-mobile > .hidemeRotate {
         width: 330px !important;
         height: 285px !important;
-        margin-left: 33px;
+        margin-left: 30px;
     }
 
     .element-img-data-engeneering-big-data > img {
@@ -13126,6 +13126,14 @@ body.md-skin {
     .div-text-card-purple-4.col-12,
     .div-text-card-purple-5.col-12 {
         max-width: 75% !important;
+    }
+}
+
+@media (max-width: 360px){
+    .img-jump-label-home {
+        width: 344px;
+        height: 244px;
+        padding-left: 13px;
     }
 }
 
