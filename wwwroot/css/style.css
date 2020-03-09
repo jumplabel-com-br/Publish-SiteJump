@@ -12690,14 +12690,6 @@ body.md-skin {
         background-size: cover !important;
     }
 
-    .landing-page .header-back.twelve {
-        height: 250px !important;
-    }
-
-    .landing-page .header-back.tweenty-five {
-        height: 720px !important;
-    }
-
     .landing-page .header-back.nineteen {
         background-image: url(../images/landing/header_nineteen.jpg) !important;
         background-position: center center !important;
@@ -12712,9 +12704,6 @@ body.md-skin {
         height: 129px !important;
     }
 
-    .landing-page .header-back.tweenty-two {
-        height: 835px !important;
-    }
 
     .item-inbox-negative-45px-mobile.item-inbox-6px > img {
         height: 253px !important;
@@ -12781,27 +12770,27 @@ body.md-skin {
     }
 
     .div-text-card-purple-1 {
-        margin-left: 0 !important;
-        margin-top: -310%;
+        margin-left: 5% !important;
+        margin-top: -340%;
     }
 
     .div-text-card-purple-2 {
-        margin-top: -205%;
-        margin-left: 0 !important;
+        margin-top: -220%;
+        margin-left: 5% !important;
     }
 
     .div-text-card-purple-3 {
         margin-top: -100%;
-        margin-left: 0 !important;
+        margin-left: 5% !important;
     }
 
     .div-text-card-purple-4 {
-        margin-left: 0 !important;
-        margin-top: -200%;
+        margin-left: 5% !important;
+        margin-top: -222%;
     }
 
     .div-text-card-purple-5 {
-        margin-left: 0 !important;
+        margin-left: 5% !important;
         margin-top: -100%;
     }
 
@@ -12830,7 +12819,12 @@ body.md-skin {
     }
 }
 
-@media (min-width: 359px) and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 325px) {
+    .box-shadow-opacity-0 {
+        height: 375px;
+    }
+}
+@media (min-width: 375px) and (max-width: 400px) {
 
     .line-black-left, .line-black-right {
         width: 100% !important;
@@ -12939,9 +12933,9 @@ body.md-skin {
         height: 52px;
     }
 
-        .div-sub-title-onetrust > h2 {
-            font-size: 13px;
-        }
+    .div-sub-title-onetrust > h2 {
+        font-size: 13px;
+    }
 
     .box-purple-radius {
         border-top-right-radius: 0 !important;
@@ -13135,6 +13129,12 @@ body.md-skin {
     }
 }
 
+@media (min-width: 365px) and (max-width: 375px) {
+    .div-text-card-purple-1 {
+        margin-left: 15%;
+        margin-top: -225%;
+    }
+}
 
 @media (min-width:401px) and (max-width: 500px) {
 
@@ -13427,14 +13427,6 @@ body.md-skin {
     .h2-onetrust-lgpd {
         margin-left: 20%;
         margin-top: 5px;
-    }
-}
-
-
-@media (min-width: 420px) and (max-width: 500px){
-    .div-text-card-purple-1 {
-        margin-left: 20%;
-        margin-top: -197%;
     }
 }
 
