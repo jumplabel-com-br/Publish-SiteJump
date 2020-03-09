@@ -12819,12 +12819,12 @@ body.md-skin {
     }
 }
 
-@media (min-width: 300px) and (max-width: 325px) {
+@media (min-width: 300px) and (max-width: 320px) {
     .box-shadow-opacity-0 {
         height: 375px;
     }
 }
-@media (min-width: 375px) and (max-width: 400px) {
+@media (min-width: 321px) and (max-width: 400px) {
 
     .line-black-left, .line-black-right {
         width: 100% !important;
@@ -12974,7 +12974,7 @@ body.md-skin {
         margin-left: 0 !important;
     }
 
-    navbar mobile {
+    .navbar .mobile {
         display: block !important;
         margin-top: -15% !important;
         margin-left: 29% !important;
