@@ -13134,6 +13134,12 @@ body.md-skin {
         margin-left: 15%;
         margin-top: -225%;
     }
+
+    .img-jump-label-home {
+        width: 344px;
+        height: 244px;
+        padding-left: 25px;
+    }
 }
 
 @media (min-width:401px) and (max-width: 500px) {

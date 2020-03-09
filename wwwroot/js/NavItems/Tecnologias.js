@@ -44,8 +44,10 @@ $('#h2-robot-process-automation-solutions').on('click', function () {
 function widthMenor700px() {
     if ($(window).width() < 768) {
         $('img').attr({ 'width': '148', 'height': '149' })
-        $('img:eq(0)').attr({ 'width': '58', 'height': '89' })
         $('img:eq(1)').attr({ 'width': '58', 'height': '89' })
+
+        $('img:eq(0)').attr({ 'width': '150', 'height': '80' })
+
         $('.img-pena-tecnologias').attr({ 'width': '40', 'height': '40' })
         $('.ft-18').css({ 'font-size': '8px' })
         $('.hover-ef8822').css({ 'font-size': '13px' })
