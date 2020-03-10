@@ -15,6 +15,7 @@ $('#h2-data-enginner-big-data').on('click', function () {
     $('#data-enginner-big-data').show();
     $(this).css({ 'color': '#ef8822' });
     $('#h2-data-science-machine-learning,#h2-data-visualization,#h2-robot-process-automation-solutions').css({ 'color': '#000' });
+    addEffectFadeUp();
 });
 
 $('#h2-data-science-machine-learning').on('click', function () {
