@@ -4,10 +4,10 @@
     $('#navbarNavDropdown ul li a').each(function () {
         console.log($(this).attr('id'))
         let navItem = window.location.href.split('/')[4];
-        navItem = navItem.split('#')[0];
         if (navItem == undefined) {
             $('#Home').addClass('active')
         } else {
+            navItem = navItem.split('#')[0];
             $(this).attr('id') == navItem ? $(this).addClass('active') : $(this).removeClass('active')
         }
     })
