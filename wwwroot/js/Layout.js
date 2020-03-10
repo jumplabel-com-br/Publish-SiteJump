@@ -4,6 +4,7 @@
     $('#navbarNavDropdown ul li a').each(function () {
         console.log($(this).attr('id'))
         let navItem = window.location.href.split('/')[4];
+
         if (navItem == undefined) {
             $('#Home').addClass('active')
         } else {
