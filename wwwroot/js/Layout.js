@@ -61,6 +61,8 @@ function questionInputRequired(form) {
             $(this).focus();
             return false;
         }
+
+        verification = true;
     });
 }
 
@@ -88,7 +90,13 @@ function Message(form) {
             $(`${form} #Telefone`).val() + ' ;' +
             $(`${form} input[name=tipoCurso]`).val();
     }
-    else if (true) {
+    else if (form == '#formOneTrust') {
+        strMessage = $(`${form} #Nome`).val() + '; ' +
+            $(`${form} #Remetente`).val() + '; ' +
+            $(`${form} #Telefone`).val() + '; ' +
+            $(`${form} #Empresa`).val();
+
+    }else if (true) {
         strMessage = $(`${form} #Nome`).val() + ' efetuou o cadastro com êxito a partir do email ' + $(`${form} #Remetente`).val();
     }
     //strMessage = strMessage.replace(/[<br/>]/g, '\n');
