@@ -7,14 +7,14 @@ function addEffectFadeUp() {
 }
 
 function ocultMods() {
-    $('#data-enginner-big-data,#data-science-machine-learning,#data-visualization,#robot-process-automation-solutions').hide();
+    $('#data-enginner-big-data,#data-science-machine-learning,#data-visualization,#data-protection').hide();
 };
 
 $('#h2-data-enginner-big-data').on('click', function () {
     ocultMods();
     $('#data-enginner-big-data').show();
     $(this).css({ 'color': '#ef8822' });
-    $('#h2-data-science-machine-learning,#h2-data-visualization,#h2-robot-process-automation-solutions').css({ 'color': '#000' });
+    $('#h2-data-science-machine-learning,#h2-data-visualization,#h2-data-protection').css({ 'color': '#000' });
     addEffectFadeUp();
 });
 
@@ -22,7 +22,7 @@ $('#h2-data-science-machine-learning').on('click', function () {
     ocultMods();
     $('#data-science-machine-learning').show();
     $(this).css({ 'color': '#ef8822' });
-    $('#h2-data-enginner-big-data,#h2-data-visualization,#h2-robot-process-automation-solutions').css({ 'color': '#000' });
+    $('#h2-data-enginner-big-data,#h2-data-visualization,#h2-data-protection').css({ 'color': '#000' });
     addEffectFadeUp();
 });
 
@@ -30,13 +30,13 @@ $('#h2-data-visualization').on('click', function () {
     ocultMods();
     $('#data-visualization').show();
     $(this).css({ 'color': '#ef8822' });
-    $('#h2-data-enginner-big-data,#h2-data-science-machine-learning,#h2-robot-process-automation-solutions').css({ 'color': '#000' });
+    $('#h2-data-enginner-big-data,#h2-data-science-machine-learning,#h2-data-protection').css({ 'color': '#000' });
     addEffectFadeUp();
 });
 
-$('#h2-robot-process-automation-solutions').on('click', function () {
+$('#h2-data-protection').on('click', function () {
     ocultMods();
-    $('#robot-process-automation-solutions').show()
+    $('#data-protection').show()
     $(this).css({ 'color': '#ef8822' });
     $('#h2-data-enginner-big-data,#h2-data-science-machine-learning,#h2-data-visualization').css({ 'color': '#000' });
     addEffectFadeUp();

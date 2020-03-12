@@ -12534,7 +12534,8 @@ body.md-skin {
 
 #data-science-machine-learning,
 #data-visualization,
-#robot-process-automation-solutions {
+#robot-process-automation-solutions,
+#data-protection {
     display: none;
 }
 
@@ -12574,7 +12575,7 @@ body.md-skin {
     background: #4A1CBB;
     color: #fff;
     width: 920px !important;
-    margin-left: 17%;
+    margin-left: 15%;
     height: 94px;
 }
 
@@ -13517,14 +13518,16 @@ body.md-skin {
     #h2-data-enginner-big-data,
     #h2-data-science-machine-learning,
     #h2-data-visualization,
-    #h2-robot-process-automation-solutions {
+    #h2-robot-process-automation-solutions,
+    #h2-data-protection {
         font-size: 15px !important;
     }
 
     #data-enginner-big-data,
     #data-science-machine-learning,
     #data-visualization,
-    #robot-process-automation-solutions {
+    #robot-process-automation-solutions,
+    #data-protection {
         margin-left: 125px;
         margin-right: 125px;
     }
