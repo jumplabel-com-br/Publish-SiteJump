@@ -56,6 +56,7 @@ function widthMenor700px() {
         $('.text-tipo-tecnologias').removeClass('col-3').addClass('col-12 text-center');
         $('.img-tipo-tecnologias').removeClass('col-3').addClass('col-6 text-center');
         $('.mobile-col-9').removeClass('col-8').addClass('col-9');
+        $('.text-col-12-mobile').removeClass('ml-5');
     }
 }
 
