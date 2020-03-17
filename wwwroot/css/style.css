@@ -12310,6 +12310,10 @@ body.md-skin {
     .navbar-top-links .dropdown-alerts {
         margin-left: auto;
     }
+
+    .img-fluid-second {
+        height: 120px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -12395,6 +12399,11 @@ body.md-skin {
     .img-col-6-mobile img {
         margin-left: 0rem !important;
         margin-top: 0rem !important;
+    }
+
+    .img-fluid-second {
+        height: 100px;
+        width: 100px;
     }
 }
 
