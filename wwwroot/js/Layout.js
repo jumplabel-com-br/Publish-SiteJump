@@ -143,7 +143,7 @@ function SendEmail(form, envioToUser = false) {
                 $('#TipoCurso').val() == undefined ? '' : $('#TipoCurso').val()
             )
 
-            $('.toast-send-email-success .toast-body').html('Inscrição efetuada com êxito, logo entraremos em contato');
+            $('.toast-send-email-success .toast-body').html('Email enviado com êxito, logo entraremos em contato');
             $('.toast-send-email-success').toast({ delay: 5000, animation: true }).toast('show');
 
             $('#Nome').val() == undefined ? '' : $('#Nome').val(''),
