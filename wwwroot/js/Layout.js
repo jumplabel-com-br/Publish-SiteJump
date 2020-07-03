@@ -94,7 +94,7 @@ function Message(form) {
     }
     //strMessage = strMessage.replace(/[<br/>]/g, '\n');
 
-    $(`${form} #Mensagem`).val(strMessage);
+    $(`${form} #Mensagem`).val(strMessage.replace(/<br>/g, ''));
 
     console.log($(`${form} #Mensagem`).val())
 }
