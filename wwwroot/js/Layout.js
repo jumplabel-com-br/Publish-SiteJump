@@ -146,6 +146,16 @@ function SendEmail(form, envioToUser = false) {
             $('.toast-send-email-success .toast-body').html('Inscrição efetuada com êxito, logo entraremos em contato');
             $('.toast-send-email-success').toast({ delay: 5000, animation: true }).toast('show');
 
+            $('#Nome').val() == undefined ? '' : $('#Nome').val(''),
+            $('#Remetente').val() == undefined ? '' : $('#Remetente').val(''),
+            $('#Telefone').val() == undefined ? '' : $('#Telefone').val(''),
+            $('#Mensagem').val() == undefined ? '' : $('#Mensagem').val(''),
+            $('#Destino').val() == undefined ? '' : $('#Destino').val(''),
+            $('#Assunto').val() == undefined ? '' : $('#Assunto').val(''),
+            $('#Empresa').val() == undefined ? '' : $('#Empresa').val(''),
+            $('#TipoCurso').val() == undefined ? '' : $('#TipoCurso').val('')
+
+
         })
         .fail(function () {
             console.log("error");
