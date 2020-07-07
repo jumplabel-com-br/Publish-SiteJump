@@ -150,6 +150,7 @@ function SendEmail(form, envioToUser = false) {
             $('#Remetente').val() == undefined ? '' : $('#Remetente').val(''),
             $('#Telefone').val() == undefined ? '' : $('#Telefone').val(''),
             $('#Mensagem').val() == undefined ? '' : $('#Mensagem').val(''),
+            $('#rascunho').val() == undefined ? '' : $('#rascunho').val(''),
             $('#Empresa').val() == undefined ? '' : $('#Empresa').val(''),
             $('#TipoCurso').val() == undefined ? '' : $('#TipoCurso').val('')
 
