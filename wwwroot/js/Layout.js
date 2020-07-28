@@ -11,6 +11,10 @@
             navItem = navItem.split('#')[0];
             $(this).attr('id') == navItem ? $(this).addClass('active') : $(this).removeClass('active')
         }
+
+        if ($('#Alteryx').attr('class') == 'nav-link element-background-black-2 mobile-text-center active' || $('#OneTrustLGPD').attr('class') == 'nav-link element-background-black-2 mobile-text-center active') {
+            $('#navbarDropdown').addClass('active')
+        }
     })
 }
 
