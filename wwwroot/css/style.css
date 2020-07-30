@@ -10207,6 +10207,7 @@ body.landing-page {
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
+    margin-top: 35px;
 }
 
 .alteryx-p-carousel {
@@ -10236,11 +10237,12 @@ body.landing-page {
 }
 
 .sub-title-alteryx {
-    font: Bold 30px/40px "Maven Pro", Sans-serif;
+    font: Bold 24px/40px "Maven Pro", Sans-serif;
     letter-spacing: 0px;
     color: #0D2354;
     text-transform: uppercase;
     opacity: 1;
+    margin-top: 40px;
 }
 
 .text-box-alteryx{
@@ -10280,7 +10282,7 @@ body.landing-page {
 
 
 .img-fluid-2 {
-    max-width: 45%;
+    max-width: 35%;
     height: auto;
 }
 
