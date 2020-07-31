@@ -10151,6 +10151,11 @@ body.landing-page {
     padding-bottom: 50px;
 }
 
+.btn-lg {
+    width: 100%;
+    margin-top:30px;
+}
+
 .text-alteryx-green{
     text-align: left;
     font: Bold 40px/33px Maven Pro;
@@ -10159,9 +10164,9 @@ body.landing-page {
     opacity: 1;
     margin-top: 125px;
 }
-.cr-alteryx{
-    margin-top: 220px;
-    margin-bottom: 200px;
+.cr-alteryx {
+    /*margin-top: 220px;
+    margin-bottom: 200px;*/
     color: #fff;
 }
 
