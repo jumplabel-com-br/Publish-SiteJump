@@ -2,6 +2,7 @@
     $('#navbarNavDropdown ul li a').removeClass('active')
 
     $('#navbarNavDropdown ul li a').each(function () {
+        debugger;
         console.log($(this).attr('id'))
         let navItem = window.location.href.split('/')[4];
 

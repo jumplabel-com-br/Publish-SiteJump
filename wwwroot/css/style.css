@@ -10208,6 +10208,7 @@ body.landing-page {
     color: #707070;
     opacity: 1;
     margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 .alteryx-p-carousel {
@@ -10285,6 +10286,17 @@ body.landing-page {
     max-width: 35%;
     height: auto;
 }
+
+/*********************************************Navbar**************************************************/
+.liNavDropMenu:hover #dropdown-menu-nav {
+    display: block;
+}
+
+.liNavDropMenu:hover #navbarDropdown {
+    color: #EF8822;
+}
+
+
 
 /********************************************Onetrust*************************************************
 ******************************************************************************************************/
