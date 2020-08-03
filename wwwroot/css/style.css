@@ -10940,8 +10940,10 @@ section > h3 {
     }
 
     .liNavDropMenu {
-        margin-top: 10px;
-        margin-left: 52.5px;
+       bottom: -15px;
+       left: 0;
+       right: 0;
+       text-align: center;
     }
 
     .landing-page .navbar-default .nav li,
