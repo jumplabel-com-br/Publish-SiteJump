@@ -10145,6 +10145,13 @@ body.landing-page {
     background-size: cover;
 }
 
+.SAS {
+    background: url('../images/landing/background-SAS.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .pt-50 {
     padding-top: 50px;
 }
@@ -14115,6 +14122,14 @@ body.md-skin {
     max-width: 100% !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-bottom: 12px;
+}
+
+.container {
+    padding-top: 130px;
+    margin-top: auto;
+    padding-bottom: 65px;
+    margin-bottom: auto;
 }
 
 .hideme {
@@ -14137,3 +14152,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .ml-2p {
     margin-left: 2%;
 }
+
+.h1-SAS {
+    font-size: 46px !important;
+}
+
+.p-SAS {
+    font-size: 22px !important;
+}
+
+.h4-more-information {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #00517F;
+}
+
+.invert-jump {
+    background-color: #00517F;
+    color: white;
+}
+
+    .invert-jump:hover {
+        background-color: #FF9226;
+        color: white;
+    }

@@ -87,8 +87,8 @@ function Message(form) {
 
     if (form == '#FormEmail') {
         strMessage = `O usuário ${$(`${form} #Nome`).val()} efetou um contato através do nosso site, email para contato ${$(`${form} #Remetente`).val()}
-        , telefone para contato ${$(`${form} #Telefone`).val()}, messagem descrita pelo usuário ${$(`${form} #rascunho`).val()};
-        `;
+                , telefone para contato ${$(`${form} #Telefone`).val()}, messagem descrita pelo usuário ${$(`${form} #rascunho`).val()};
+                `;
 
     } else if (form == '#formTraining') {
         strMessage = `O usuário ${$(`${form} #Nome`).val()} cadastrou no ${$('#modalTraining .modal-title').html()}, através do email: ${$(`${form} #Remetente`).val()}, telefone: ${$(`${form} #Telefone`).val()} e curso do tipo: ${$(`${form} input[name=tipoCurso]`).val()}`;
@@ -96,6 +96,8 @@ function Message(form) {
     else if (form == '#formOneTrust') {
         strMessage = `O usuário ${$(`${form} #Nome`).val()}, da empresa: ${$(`${form} #Empresa`).val()} efetou o cadastro no OneTrust através do email: ${$(`${form} #Remetente`).val()}, com o  telefone: ${$(`${form} #Telefone`).val()}.`;
 
+    } else if (form == '#formSAS') {
+        strMessage = `O usuário ${$(`${form} #Nome`).val()}, da empresa: ${$(`${form} #Empresa`).val()} efetou o cadastro no SAS através do email: ${$(`${form} #Remetente`).val()}, com o  telefone: ${$(`${form} #Telefone`).val()}.`;
     } else if (true) {
         strMessage = $(`${form} #Nome`).val() + ' efetuou o cadastro com êxito a partir do email ' + $(`${form} #Remetente`).val();
     }
